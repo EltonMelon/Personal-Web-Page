@@ -31,7 +31,7 @@
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
-        --fs-h4: 0.9rem;
+        --fs-h4: 1rem;
         --fs-body: 1.125rem;
     }
 }
@@ -370,7 +370,6 @@ header{
 .interest__img{
     display: block;
     margin: auto;
-    max-width: 35%;
     margin-top: 20px;
     margin-bottom: 50px;
 
@@ -387,7 +386,6 @@ header{
 
     .interest + .interest {
         margin-left: 2em;
-
     }
 }
 
@@ -430,7 +428,22 @@ header{
         position: relative;
         z-index: 2;
     }
+
+    .twitter_banner{
+        width: 50%;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        transition: transform 200ms ease-in-out;
+    }
+    
+    .twitter_banner:hover{
+        transform: scale(1.1);
+    }
+    
 }
+
+
 
 .my-work{
     background-color: var(--clr-dark);
